@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^9.33.0",
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5",
+    "prettier": "^3.6.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
